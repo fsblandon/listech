@@ -1,0 +1,17 @@
+.header {
+    padding-left: 10%;
+    padding-right: 10%;
+    background: url('../../../assets/Backgrounds/Bg_Header.png');
+    background-repeat: repeat-x;
+}
+
+@font-face {
+    font-family: 'Firasans';
+    src: url('../../../assets/Fonts/Fira_Sans/FiraSans-Light.ttf');
+    font-display: inherit;
+}
+
+#title_init {
+    font-family: Firasans;
+    font-size: larger;
+}

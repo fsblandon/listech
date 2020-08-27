@@ -1,1 +1,56 @@
-<p>navbar works!</p>
+<nav class="row navbar">
+    <div class="col-50">
+        <a 
+            (click)="goToHome()" 
+            role="banner">
+            <img 
+                src="../../../assets/logo_full_color.svg" 
+                alt="wolox"
+                width="200"
+                height="100">
+        </a>
+    </div>
+    <div class="col-50 col">
+        <div class="nav-list">
+            <div class="row">
+                <div class="col-nav">
+                    <a
+                        (click)="goToHome()"
+                        role="button">
+                        Inicio
+                    </a>
+                </div>
+                <div class="col-nav">
+                    <a 
+                        (click)="goToHome()"
+                        role="button">
+                        Tecnologias
+                    </a>
+                </div>
+                <div class="col-nav">
+                    <a 
+                        (click)="goToHome()"
+                        role="button">
+                        Beneficios
+                    </a>
+                </div>
+                <div class="col-nav">
+                    <a 
+                        (click)="goToHome()"
+                        role="button">
+                        Requerimientos
+                    </a>
+                </div>
+                <div 
+                    class="col-nav"
+                    id="btn_login">
+                    <a 
+                        (click)="goToLogin()"
+                        role="button">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>

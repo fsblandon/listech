@@ -1,0 +1,33 @@
+.nav-content {
+    display: inline;
+}
+
+.nav-list {
+    margin-left: 40%;
+    font-family: Montserrat;
+    font-size: larger;
+}
+
+.col {
+    align-items: end;
+    justify-content: center;
+}
+
+.col-nav {
+    width: 25%;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#btn_login {
+    border: 1px solid;
+    color: #0d97f9;
+    border-radius: 10px 10px 10px 10px;
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../../../assets/Fonts/Montserrat/Montserrat-SemiBold.ttf');
+    font-display: inherit;
+}
