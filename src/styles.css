@@ -26,3 +26,21 @@
       display: none;
     }
 }
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('./assets/Fonts/Montserrat/Montserrat-SemiBold.ttf');
+    font-display: inherit;
+}
+
+@font-face {
+    font-family: 'Firasans';
+    src: url('./assets/Fonts/Fira_Sans/FiraSans-Light.ttf');
+    font-display: inherit;
+}
+
+@font-face {
+    font-family: 'Montserrat-light';
+    src: url('./assets/Fonts/Montserrat/Montserrat-Light.ttf');
+    font-display: inherit;
+}

@@ -10,7 +10,9 @@ import { User } from '../models/user.model';
 })
 export class LoginService {
 
-  urlBase: 'http://private-8e8921-woloxfrontendinverview.apiary-mock.com';
+  urlBase = 'http://private-8e8921-woloxfrontendinverview.apiary-mock.com';
+
+  token: string;
 
   constructor(
     private httpClient: HttpClient

@@ -1,1 +1,50 @@
-<p>login works!</p>
+<div class="content-form">
+    
+    <div class="form-login">
+        <div class="row">
+            <label id="label-init">Inicia sesion</label>
+        </div>
+        <div class="row">
+            <form   [formGroup]="loginForm"
+                    (ngSubmit)="login()">
+                <div class="row">
+                    <input  
+                            type="email"
+                            class="inputs"
+                            formControlName="email"
+                            placeholder="Ingresa correo"
+                            required>
+                </div>
+                <div    class="row"
+                        style="margin-top: 5px;">
+                    <input  type="password"
+                            class="inputs"
+                            formControlName="password"
+                            placeholder="Contraseña"
+                            required>
+                </div>
+            </form>
+        </div>
+        <div class="row">
+            <label>
+                <input
+                    type="checkbox"
+                    [checked]="connect"
+                    name="connect"
+                    (change)="changeConnect()">
+                    Mantenerse conectado
+            </label>
+        </div>
+        <div class="row">
+            <div class="btn-content">
+                <button type="submit"
+                        class="btn-sign"
+                        [disabled]="!loginForm.valid"
+                        (click)="login()">
+                    Iniciar Sesión
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+    

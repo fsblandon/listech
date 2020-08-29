@@ -1,0 +1,43 @@
+.form-login {
+    text-align: center;
+    position: fixed;
+    padding: 2%;
+    top: 45%;
+    left: 45%;
+    color: #0d97f9;
+    background: #edf3ff;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid;
+    box-shadow: 2px 3px 2px 2px;
+}
+
+#label-init {
+    color: blue;
+    font-family: Montserrat-light;
+    font-size: x-large;
+    margin-bottom: 25px;
+}
+
+.content-form {
+    padding: 50%;
+    background: url('../../../assets/Backgrounds/Bg_Header@2x.png');
+    background-repeat: repeat-y;
+}
+
+.inputs {
+    border: 1px solid;
+    color: black;
+    border-radius: 5px 5px 5px 5px;
+    cursor: text;
+}
+
+.btn-content {
+    padding-left: 20%;
+}
+
+.btn-sign {
+    margin-top: 15px;
+    border: 3px solid;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}

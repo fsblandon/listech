@@ -1,6 +1,4 @@
 import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
-import { ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 
 // Views
@@ -14,6 +12,9 @@ import { NavbarComponent } from '../components/navbar/navbar.component';
 // Pipes
 import { SearchPipe } from '../pipes/search.pipe';
 
+import { ReactiveFormsModule, FormsModule } from '@angular/forms';
+
+
 @NgModule({
   declarations: [
     LoginComponent,
@@ -23,8 +24,9 @@ import { SearchPipe } from '../pipes/search.pipe';
     SearchPipe
   ],
   imports: [
-    ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule,
+    ReactiveFormsModule
   ],
   exports: [
     LoginComponent,

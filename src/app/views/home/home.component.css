@@ -5,13 +5,65 @@
     background-repeat: repeat-x;
 }
 
-@font-face {
-    font-family: 'Firasans';
-    src: url('../../../assets/Fonts/Fira_Sans/FiraSans-Light.ttf');
-    font-display: inherit;
+#title_init {
+    font-family: Montserrat-light;
+    font-size: xxx-large;
 }
 
-#title_init {
-    font-family: Firasans;
-    font-size: larger;
+#name {
+    color: limegreen;
+}
+
+.header-content {
+    align-items: center;
+    margin-top: 10vh;
+}
+
+.image-header {
+    padding-left: 20%;
+}
+
+#benefits {
+    background: #edf3ff;
+}
+
+.title-middle {
+    align-items: center;
+}
+
+.content-image {
+    position: relative;
+    text-align: center;
+}
+
+.center-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+#woloxers {
+    color: deepskyblue;
+}
+
+#btn-decoration {
+    margin-top: 15px;
+    border: 3px solid;
+    color: #0d97f9;
+    border-radius: 30px 30px 30px 30px;
+    cursor: pointer;
+}
+
+#btn_follow {
+    padding: 50px;
+    color: white;
+    text-decoration: unset;
+}
+
+#title_middle {
+    text-align: center;
+    font-family: Montserrat-light;
+    font-size: xxx-large;
 }

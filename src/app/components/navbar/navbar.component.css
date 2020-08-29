@@ -3,7 +3,6 @@
 }
 
 .nav-list {
-    margin-left: 40%;
     font-family: Montserrat;
     font-size: larger;
 }
@@ -15,8 +14,15 @@
 
 .col-nav {
     width: 25%;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: black;
 }
 
 #btn_login {
@@ -24,10 +30,4 @@
     color: #0d97f9;
     border-radius: 10px 10px 10px 10px;
     cursor: pointer;
-}
-
-@font-face {
-    font-family: 'Montserrat';
-    src: url('../../../assets/Fonts/Montserrat/Montserrat-SemiBold.ttf');
-    font-display: inherit;
 }

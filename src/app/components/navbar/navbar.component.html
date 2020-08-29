@@ -14,34 +14,32 @@
         <div class="nav-list">
             <div class="row">
                 <div class="col-nav">
-                    <a
-                        (click)="goToHome()"
-                        role="button">
+                    <a  class="link"
+                        href="#index">
                         Inicio
                     </a>
                 </div>
                 <div class="col-nav">
-                    <a 
-                        (click)="goToHome()"
-                        role="button">
+                    <a  class="link"
+                        href="#technologies">
                         Tecnologias
                     </a>
                 </div>
                 <div class="col-nav">
-                    <a 
-                        (click)="goToHome()"
-                        role="button">
+                    <a  class="link"
+                        href="#benefits">
                         Beneficios
                     </a>
                 </div>
                 <div class="col-nav">
-                    <a 
+                    <a  class="link"
                         (click)="goToHome()"
                         role="button">
                         Requerimientos
                     </a>
                 </div>
                 <div 
+                    [hidden]="token !== null"
                     class="col-nav"
                     id="btn_login">
                     <a 
